@@ -15,7 +15,7 @@ void handleRoot() {
   server.send(200, "text/html", INDEX_HTML);
 }
 
-const int relayPin = 0; // D3
+const int relayPin = 2; // D4 (Using GPIO-2 since GPIO-0 flashes when flashing program).
 const int powerButtonPin = 14; // D5
 bool relayState = false;
 
