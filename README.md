@@ -13,9 +13,9 @@ In other words, the initial upload will take a while, but subsequent uploads are
 
 ### Hardware setup
 
-The switch output is on pin D3.
-Until the chip boots, this should be pulled down with a resistor.
-
+Until the chip boots, output pins can be floating.
+The switch output is on pin D3. This should be pulled down with a 10K resistor.
+The power button input is on D5. This should be pulled down with a 10K resistor.
 ![Pinout](./ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png)
 
 ### Development
