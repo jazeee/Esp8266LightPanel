@@ -16,6 +16,8 @@ In other words, the initial upload will take a while, but subsequent uploads are
 The switch output is on pin D3.
 Until the chip boots, this should be pulled down with a resistor.
 
+![Pinout](./ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png)
+
 ### Development
 
 Serial Port is at 115200
